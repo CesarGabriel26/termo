@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native-web";
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
@@ -8,9 +8,39 @@ export const styles = StyleSheet.create({
     },
 
     Cell : {
-        height : 80,
-        widht : 80,
+        minHeight : 60,
+        minWidth : 60,
+        borderWidth : 4,
+        borderRadius : 10,
+        display : "flex",
+        justifyContent : 'center',
+        alignItems : 'center',
+        margin : 2
+    },
+
+    CellText : {
+        fontSize : 35
+    },
+
+    Row : {
+        display : 'flex',
+        flexDirection : 'row',
+    },
+
+    Col : {
+        display : 'flex',
+        flexDirection : 'column'
+    },
+
+    inp : { 
+        height : 80, 
+        borderWidth : 2, 
+        width: '40%', 
+        marginTop : 20, 
+        paddingLeft : 5, 
+        borderRadius : 10, 
+        color : 'white',
+        fontSize : 30
     }
 
 });
-  

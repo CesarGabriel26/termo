@@ -7,9 +7,12 @@ import { StyleSheet } from "react-native";
 --colorWrongFG: #504a4b;
 */
 
-export const BgColors = StyleSheet.create({
-    colorCellBOrder : {
+export const Bgs = StyleSheet.create({
+    colorCellBorder : {
         borderColor : '#4C4347'
+    },
+    colorCellText : {
+        color : 'white'
     },
     colorRight : {
         backgroundColor : '#3aa394'
